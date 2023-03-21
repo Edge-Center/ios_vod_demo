@@ -36,13 +36,13 @@ This version makes it easy to use metadata to send files. You can easily add via
   To interact with the server, the **HTTPCommunicator** structure is used, through the API:
   ```swift
 enum EdgeCenterAPI: String {
-    case authorization = "https://api.gcore.com/iam/auth/jwt/login"
-    case videos = "https://api.gcore.com/streaming/videos"
-    case refreshToken = "https://api.gcore.com/iam/auth/jwt/refresh"
+    case authorization = "https://api.edgecenter.ru/iam/auth/jwt/login"
+    case videos = "https://api.edgecenter.ru/streaming/videos"
+    case refreshToken = "https://api.edgecenter.ru/iam/auth/jwt/refresh"
 }
   ```
   Which create the necessary request through the **HTTPCommunicator** struct.
-  For more check EdgeCenter API [documentation](https://apidocs.gcore.com/streaming).
+  For more check EdgeCenter API [documentation](https://apidocs.edgecenter.ru/streaming).
   
 ## Requirements
   1) iOS min - 12.1,
