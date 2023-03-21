@@ -9,14 +9,14 @@ Setup VOD viewing in 15 minutes in your iOS project instead of 7 days of work an
 ## Feature
 1) HLS playback,
 2) Upload new video via TUSKit,
-3) authorization on Gcore services,
+3) authorization on EdgeCenter services,
 4) Support for smooth scrolling.
  
 ## Quick start 
   1) Launching the application via xcode (it must be run on a real device, since the simulator does not support the camera),
-  2) Authorization via email and password of the personal account in Gcore,
+  2) Authorization via email and password of the personal account in EdgeCenter,
   3) On the viewing screen, you can start viewing VOD with smooth scrolling,
-  4) On the upload screen, you can start record and push video on the Gcore.
+  4) On the upload screen, you can start record and push video on the EdgeCenter.
 
 ## Setup of project
 Clone this project and try it or create a new one.
@@ -32,17 +32,17 @@ This version makes it easy to use metadata to send files. You can easily add via
 
     Also, to record sound in the background, you need to add a **background mode** - **"Audio, AirPlay and Picture in Picture"**
 
-3) Gcore API
+3) EdgeCenter API
   To interact with the server, the **HTTPCommunicator** structure is used, through the API:
   ```swift
-enum GcoreAPI: String {
+enum EdgeCenterAPI: String {
     case authorization = "https://api.gcore.com/iam/auth/jwt/login"
     case videos = "https://api.gcore.com/streaming/videos"
     case refreshToken = "https://api.gcore.com/iam/auth/jwt/refresh"
 }
   ```
   Which create the necessary request through the **HTTPCommunicator** struct.
-  For more check Gcore API [documentation](https://apidocs.gcore.com/streaming).
+  For more check EdgeCenter API [documentation](https://apidocs.gcore.com/streaming).
   
 ## Requirements
   1) iOS min - 12.1,
@@ -51,7 +51,7 @@ enum GcoreAPI: String {
   4) The presence of a camera and microphone on the device.
   
 ## License
-Copyright 2022 Gcore
+Copyright 2022 EdgeCenter
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
