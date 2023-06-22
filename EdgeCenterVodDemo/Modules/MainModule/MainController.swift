@@ -24,32 +24,32 @@ final class MainController: UITabBarController {
         
         let viewingVC = ViewingController()
         viewingVC.tabBarItem = .init(
-            title: "Просмотр",
+            title: "VODs",
             image: .viewingIcon, 
             selectedImage: .viewingSelectedIcon.withRenderingMode(.alwaysOriginal)
         )
         
         let uploadVC = UploadController()
         uploadVC.tabBarItem = .init(
-            title: "Загрузка",
+            title: "Upload",
             image: .uploadIcon, 
             selectedImage: .uploadSelectedIcon.withRenderingMode(.alwaysOriginal)
         )
         
         let profileVC = ProfileController()
         profileVC.tabBarItem = .init(
-            title: "Учетная запись",
+            title: "Account",
             image: .accountIcon, 
             selectedImage: .accountSelectedIcon.withRenderingMode(.alwaysOriginal)
         )
         
         let smoothScrollVC = SmoothScrollingController()
         smoothScrollVC.tabBarItem = .init(
-            title: "Просмотр",
-            image: .viewingIcon, 
-            selectedImage: .viewingSelectedIcon.withRenderingMode(.alwaysOriginal)
+            title: "Viewing",
+            image: .smoothScrollingIcon,
+            selectedImage: .smoothScrollingIconSelected.withRenderingMode(.alwaysOriginal)
         )
 
-        viewControllers = [viewingVC, uploadVC, profileVC]
+        viewControllers = [viewingVC, smoothScrollVC ,uploadVC, profileVC]
     }   
 }

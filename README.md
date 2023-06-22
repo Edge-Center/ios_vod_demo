@@ -1,7 +1,10 @@
 # Fully working video app for iOS: Video player, Smooth scrolling, Upload
 
-## Demo
-<img src="/gif/iOS_Vod_demo_github.gif"/>
+## Screenshots
+<img src="/gif/iOS_Vod_demo_github_welcome_screen.png"/ width=240> <img
+src ="/gif/iOS_Vod_demo_github_viewing_screen.png"/ width=240> <img
+src ="/gif/iOS_Vod_demo_github_scrolling_screen.png"/ width=240> <img
+src ="/gif/iOS_Vod_demo_github_upload_screen.png"/ width=240>
 
 ## Introduction
 Setup VOD viewing in 15 minutes in your iOS project instead of 7 days of work and setting network, smooth scrolling, upload parameters etc. This demo project is a quick tutorial how to view video from your own mobile app to an audience of 1 000 000+ views like Instagram, Youtube, etc.
@@ -51,16 +54,26 @@ enum EdgeCenterAPI: String {
   4) The presence of a camera and microphone on the device.
   
 ## License
-Copyright 2022 EdgeCenter
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+MIT License
 
-        http://www.apache.org/licenses/LICENSE-2.0
+Copyright (c) 2023 Edge-Center
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 

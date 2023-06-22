@@ -15,6 +15,14 @@ extension UIColor {
 }
 
 extension UIImage {
+    static var smoothScrollingIcon: UIImage {
+        UIImage(named: "smooth_scrolling_icon")!
+    }
+
+    static var smoothScrollingIconSelected: UIImage {
+        UIImage(named: "smooth_scrolling_icon_selected")!
+    }
+
     static var ecLogo: UIImage { 
         UIImage(named: "ec_logo")!
     }
