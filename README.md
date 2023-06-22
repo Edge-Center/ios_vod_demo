@@ -27,15 +27,16 @@ Clone this project and try it or create a new one.
 1) Library <br />
     a) [TUSKit](https://github.com/tus/TUSKit) - To perform asynchronous video upload to the server, we recommend using  version 2.2.1   
 This version makes it easy to use metadata to send files. You can easily add via SPM specifying git libraries with the version.
+
     b) [Texture](https://github.com/TextureGroup/Texture) - To perform asynchronous UI, and smooth scrolling via table node realization.
   
-2) Permissions <br />
+3) Permissions <br />
   To use the camera and microphone, you need to request the user's permission for this. To do this, add to the plist (Info) of the project:
   **Privacy - Camera Usage Description** and **Privacy - Microphone Usage Description**. <br />
 
     Also, to record sound in the background, you need to add a **background mode** - **"Audio, AirPlay and Picture in Picture"**
 
-3) EdgeCenter API
+4) EdgeCenter API
   To interact with the server, the **HTTPCommunicator** structure is used, through the API:
   ```swift
 enum EdgeCenterAPI: String {
