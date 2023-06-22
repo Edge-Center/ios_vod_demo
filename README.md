@@ -1,10 +1,10 @@
 # Fully working video app for iOS: Video player, Smooth scrolling, Upload
 
 ## Screenshots
-<img src="/gif/iOS_Vod_demo_github_welcome_screen.png"/ width=240>
-<img src ="/gif/iOS_Vod_demo_github_viewing_screen.png"/ width=240>
-<img src ="/gif/iOS_Vod_demo_github_scrolling_screen.png"/ width=240>
-<img src ="/gif/iOS_Vod_demo_github_upload_screen.png"/ width=240>
+<img src="/gif/iOS_Vod_demo_github_welcome_screen.png"/>
+<img src ="/gif/iOS_Vod_demo_github_viewing_screen.png"/>
+<img src ="/gif/iOS_Vod_demo_github_scrolling_screen.png"/>
+<img src ="/gif/iOS_Vod_demo_github_upload_screen.png"/>
 
 ## Introduction
 Setup VOD viewing in 15 minutes in your iOS project instead of 7 days of work and setting network, smooth scrolling, upload parameters etc. This demo project is a quick tutorial how to view video from your own mobile app to an audience of 1 000 000+ views like Instagram, Youtube, etc.
